@@ -1,0 +1,4 @@
+config LAYER_REPORT
+    bool "Report over Bluetooth whether the Windows layer is on"
+    default y
+    depends on ZMK_BLE && ZMK_SPLIT && ZMK_SPLIT_ROLE_CENTRAL
